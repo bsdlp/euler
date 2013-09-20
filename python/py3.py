@@ -9,10 +9,9 @@ What is the largest prime factor of the number 600851475143 ?
 thang = 600851475143
 i = 2
 
-while i*i < thang:
+while i * i < thang:
     while thang % i == 0:
         thang = thang / i
     i += 1
 
 print(thang)
-

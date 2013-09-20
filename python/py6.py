@@ -11,7 +11,6 @@ Hence the difference between the sum of the squares of the first ten natural num
 Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 """
 
-bleh = range(1,101)
+bleh = range(1, 101)
 
-print(sum(bleh) * sum(bleh) - sum(x*x for x in bleh))
-
+print(sum(bleh) * sum(bleh) - sum(x * x for x in bleh))
