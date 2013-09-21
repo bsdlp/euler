@@ -8,7 +8,7 @@ What is the 10 001st prime number?
 from math import sqrt
 
 def is_prime(urmom):
-    return all(urmom % i for i in range(2,int(sqrt(urmom))))
+    return all(urmom % i for i in range(2,urmom))
 
 blah = 0
 shiz = 1
